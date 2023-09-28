@@ -14,5 +14,5 @@ El funcionamiento de la aplicación es el siguiente:
 
 ### Enlaces
 
-- [Configuración inicial]()
-- [Clave SSH]()
+- [Configuración inicial](https://github.com/sergioffdez/PDF_Cloud/blob/Objetivo-0/docs/config-git.png)
+- [Clave SSH](https://github.com/sergioffdez/PDF_Cloud/blob/Objetivo-0/docs/ssh.png)
