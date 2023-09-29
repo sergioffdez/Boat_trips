@@ -1,16 +1,11 @@
 # PDF Cloud
 **Autor:** Sergio Fernández Fernández
 
-## Descripción de la aplicación
-PDF Cloud es una aplicación en la nube que genera archivos PDF a partir de archivos JSON almacenados en la nube. El objetivo es proporcionar una forma sencilla y rápida de generar documentos PDF a partir de datos estructurados.
+## Descripción del problema
+Muchas empresas realizan informes, contratos y facturas de manera manual, pero ¿Y si se pudiera automatizar la creación de estos documentos? Esto ayudaría a ahorrar mucha carga de trabajo y realizarlo de manera muy sencilla. 
 
-## Funcionamiento
-El funcionamiento de la aplicación es el siguiente:
-
-1. El usuario carga un archivo JSON en la aplicación.
-2. El archivo JSON se procesa utilizando PHP.
-3. El contenido del archivo JSON se genera como un documento PDF.
-4. El documento PDF se descarga al usuario.
+## Propuesta de posible solución
+Una aplicación que permita generar pdf en la nube mediante diferentes plantillas utilizando datos dinámicos. Estos datos estarían almacenados en archivos .json y se emplearían para generar pdf según las necesidades de la empresa, ya sea para generar facturas, informes, contratos, pedidos a proveedores, etc. 
 
 ### Enlaces
 
