@@ -1,11 +1,14 @@
-# PDF Cloud
+# F1 Analyzer
 **Autor:** Sergio Fernández Fernández
 
 ## Descripción del problema
-Muchas empresas realizan informes, contratos y facturas de manera manual, pero ¿Y si se pudiera automatizar la creación de estos documentos? Esto ayudaría a ahorrar mucha carga de trabajo y realizarlo de manera muy sencilla. 
+Un aficionado promedio de la Fórmula 1, cuando hay fin de semana de carreras, puede tener dificultades para saber en qué estado de forma llegan los equipos y los pilotos a ese gran premio. Esto depende de varios factores, rendimiento del vehículo, rendimiento específico del vehículo en ese circuito (hay monoplazas que van mejor en un circuito con muchas rectas y peor en otro con muchas curvas), estado de forma del piloto, meteorología, estrategias de carrera (pit stops), etc. El problema concreto que se abordaría es el de poder predecir el resultado de la próxima carrera, utilizando datos de carreras anteriores en ese mismo campeonato, carreras en ese mismo circuito de años anteriores, tiempos por vuelta, estrategias, etc. 
 
 ## Propuesta de posible solución
-Una aplicación que permita generar pdf en la nube mediante diferentes plantillas utilizando datos dinámicos. Estos datos estarían almacenados en archivos .json y se emplearían para generar pdf según las necesidades de la empresa, ya sea para generar facturas, informes, contratos, pedidos a proveedores, etc. 
+Una aplicación que permita predecir el resultado de la próxima carrera analizando los datos mencionados anteriormente con una interfaz sencilla para cualquier tipo de usuario. Esto tendría utilidad puramente informativa pero también sería útil en el mundo de las apuestas deportivas para tener un poco más claro por que equipo/piloto o resultado de carrera se podría apostar.
+
+## Despliegue en la nube
+Se necesita un despliegue en la nube ya que habría que almacenar los datos de años anteriores para poder generar el modelo de predicción, así como los datos resultantes.
 
 ### Enlaces
 
