@@ -1,4 +1,4 @@
-# Firewood distribution
+# Firewood distributor
 **Autor:** Sergio Fernández Fernández
 
 ## Descripción del problema
