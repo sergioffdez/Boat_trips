@@ -1,14 +1,14 @@
-# F1 Analyzer
+# Envíos de leña a domicilio
 **Autor:** Sergio Fernández Fernández
 
 ## Descripción del problema
-Un aficionado promedio de la Fórmula 1, cuando hay fin de semana de carreras, puede tener dificultades para saber en qué estado de forma llegan los equipos y los pilotos a ese gran premio. Esto depende de varios factores, rendimiento del vehículo, rendimiento específico del vehículo en ese circuito (hay monoplazas que van mejor en un circuito con muchas rectas y peor en otro con muchas curvas), estado de forma del piloto, meteorología, estrategias de carrera (pit stops), etc. El problema concreto que se abordaría es el de poder predecir el resultado de la próxima carrera, utilizando datos de carreras anteriores en ese mismo campeonato, carreras en ese mismo circuito de años anteriores, tiempos por vuelta, estrategias, etc. 
+El dueño de una empresa de leña, ahora que empieza el invierno y el frío, tiene que empezar a hacer repartos a domicilio. Los clientes que deseen un pedido a domicilio, deben llamar por teléfono o acudir presencialmente para solicitarlo. También existe un pedido mínimo en kilogramos para realizar la entrega a domicilio ya que si la cantidad está por debajo de dicho umbral no saldría rentable realiar dicho envío. El problema reside en optimizar los repartos. ¿Qué ruta debería seguir para ahorrar el mayor combustible posible y realizarlo en el menor tiempo posible?
 
 ## Propuesta de posible solución
-Una aplicación que permita predecir el resultado de la próxima carrera analizando los datos mencionados anteriormente con una interfaz sencilla para cualquier tipo de usuario. Esto tendría utilidad puramente informativa pero también sería útil en el mundo de las apuestas deportivas para tener un poco más claro por que equipo/piloto o resultado de carrera se podría apostar.
+Una aplicación que permita calcular el trayecto a seguir con los diferentes puntos de entrega para que sea lo más eficiente posible, ayudando así a la empresa a reducir costes en combustible y aumentar el tiempo efectivo de trabajo. Esto se realizaría mediante calculos heurísticos.
 
 ## Despliegue en la nube
-Se necesita un despliegue en la nube ya que habría que almacenar los datos de años anteriores para poder generar el modelo de predicción, así como los datos resultantes.
+Se necesita un despliegue en la nube para almacenar los puntos de entrega posibles y realizar los cálculos necesarios para obtener la mejor ruta.
 
 ### Enlaces
 
